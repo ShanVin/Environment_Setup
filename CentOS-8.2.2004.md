@@ -22,8 +22,8 @@
     vim /etc/sysconfig/network-scripts/ifcfg-ens33
         BOOTPROTO="static"
         PREFIX=24
-        IPADDR=192.168.220.128
-        GATEWAY=192.168.220.2
+        IPADDR=192.168.47.128
+        GATEWAY=192.168.47.2
         NETMASK=255.255.255.0
 	cp /etc/resolv.conf /etc/resolv.conf.bak
     vim /etc/resolv.conf
